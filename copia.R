@@ -1,3 +1,4 @@
+#Hola soy Stefani
 rm(list=ls())
 a<- 5
 getwd()
