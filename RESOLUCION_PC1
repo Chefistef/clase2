@@ -1,0 +1,210 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Chefistef/clase2/blob/master/RESOLUCION_PC1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "EsdJsAr7iVh8",
+        "colab_type": "code",
+        "outputId": "69223594-3cdb-44da-b7c0-298d23053000",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "#Ejercicio2\n",
+        "\n",
+        "\n",
+        "palabra = 'Hello world'\n",
+        "palabra [::-1]"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'dlrow olleH'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "H9VAInzHsU_t",
+        "colab_type": "code",
+        "outputId": "dcfe1cf3-c9f2-4cb7-8104-4a90a6aafe93",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "#Ejercicio1\n",
+        "\n",
+        "(2**3 + 10/5)/15"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0.6666666666666666"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 22
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "0zokvjDXt8R3",
+        "colab_type": "code",
+        "outputId": "82bdb75e-bf94-48dc-d4b3-07ba4ee87804",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        }
+      },
+      "source": [
+        "#Ejercicio3\n",
+        "\n",
+        "lista = [0,0,0]\n",
+        "print(lista [:])\n",
+        "\n",
+        "milista = [0,0]\n",
+        "\n",
+        "milista.append(0)\n",
+        "\n",
+        "print(milista[:])"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "[0, 0, 0]\n",
+            "[0, 0, 0]\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "3Pu16K8H2K7n",
+        "colab_type": "code",
+        "outputId": "6ad620ba-7a88-4cae-d461-a715f323a450",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "#Ejercicio4\n",
+        "\n",
+        "\n",
+        "lista = [1, 2,[3, 4, ('Hello')]]\n",
+        "\n",
+        "lista[2][-1] = 'goodbay'\n",
+        "\n",
+        "print(lista)\n"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "[1, 2, [3, 4, 'goodbay']]\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "4FBdcv7K2LNn",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "#ejercicio5\n",
+        "\n",
+        "\n",
+        "d1 = {'simple_key':'hello'}\n",
+        "\n",
+        "d2 = {'k1':{'k2':'hello'}}\n"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "F1t-Ou-iopSI",
+        "colab_type": "code",
+        "outputId": "f4a76c3f-823c-4dbf-e8a5-f9afb7945135",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "6**2\n",
+        "\n",
+        "10\n"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "2.0"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 13
+        }
+      ]
+    }
+  ]
+}
